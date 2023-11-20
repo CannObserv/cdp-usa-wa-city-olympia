@@ -81,7 +81,7 @@ jobs:
     - name: Setup gcloud
       uses: google-github-actions/setup-gcloud@v0
       with:
-        project_id: cdp-usa-wa-city-olympia-kkughv
+        project_id: cdp-usa-wa-city-olympia-kkug
         service_account_key: ${{ secrets.GOOGLE_CREDENTIALS }}
         export_default_credentials: true
 

@@ -53,7 +53,7 @@ jobs:
         echo "$GOOGLE_CREDENTIALS" > google-creds.json
         export GOOGLE_APPLICATION_CREDENTIALS=$(pwd)/google-creds.json
         just deploy \
-          cdp-usa-wa-city-olympia-kkughv \
+          cdp-usa-wa-city-olympia-kkug \
           $(pwd)/../cookiecutter.yaml
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

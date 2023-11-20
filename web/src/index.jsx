@@ -7,7 +7,7 @@ import "@councildataproject/cdp-frontend/dist/index.css";
 const config = {
     firebaseConfig: {
         options: {
-            projectId: "cdp-usa-wa-city-olympia-kkughv",
+            projectId: "cdp-usa-wa-city-olympia-kkug",
         },
         settings: {},
     },

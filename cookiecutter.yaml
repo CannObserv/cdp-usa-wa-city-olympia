@@ -4,7 +4,7 @@ default_context:
     governing_body_type: "city council"
     municipality_slug: "usa-wa-city-olympia"
     python_municipality_slug: "usa_wa_city_olympia"
-    infrastructure_slug: "cdp-usa-wa-city-olympia-kkughv"
+    infrastructure_slug: "cdp-usa-wa-city-olympia-kkug"
     maintainer_or_org_full_name: "Cannabis Observer"
     hosting_github_username_or_org: "CannObserv"
     hosting_github_repo_name: "cdp-usa-wa-city-olympia"
