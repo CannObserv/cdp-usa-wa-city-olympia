@@ -5,6 +5,8 @@ from datetime import datetime
 from typing import List
 
 from cdp_backend.pipeline.ingestion_models import EventIngestionModel
+from cdp_scrapers.legistar_utils import LegistarScraper
+
 
 ###############################################################################
 
@@ -35,6 +37,9 @@ def get_events(
     and to_dt parameters. However, they are useful for manually kicking off pipelines
     from GitHub Actions UI.
     """
+    scraper = LegistarScraper(
+        client="olympia",
+        timezone="America/Los_Angeles",
+    )
 
-    # Your implementation here
-    return []
+    return scraper.get_events(begin=from_dt, end=to_dt)
