@@ -109,3 +109,6 @@ ENV/
 
 # Secrets
 .keys/
+
+# CDP exclusions
+data/
